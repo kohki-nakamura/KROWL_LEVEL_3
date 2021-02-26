@@ -16,6 +16,7 @@ header .header__text {
   position: relative;
   top: 190px;
   left: 100px;
+  width: 0;
 }
 
 header .header__text div {
@@ -189,5 +190,58 @@ header .header__free:hover {
 
 .service {
   background-color: #E6F6FF;
+  height: 706px;
+}
+
+.service__contents {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 60px;
+}
+
+.service__contents .content {
+  width: 50%;
+}
+
+.service__contents .content p {
+  text-align: left;
+  line-height: 28px;
+  font-size: 15.5px;
+}
+
+.service__contents .content .icons span {
+  margin-left: 35px;
+}
+
+.service__contents .content .icons:last-child {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.service__contents .button {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.service__contents .button a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #008DD5;
+  font-weight: bold;
+  border: #008DD5 solid 1px;
+  border-radius: 5px;
+}
+
+.service__contents .button a:hover {
+  background-color: #008DD5;
+  color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 /*# sourceMappingURL=style.css.map */

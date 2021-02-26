@@ -16,6 +16,7 @@ header {
 			position: relative;
 			top: 190px;
 			left: 100px;
+			width: 0;
 
 			div {
 				font-size: 36px;
@@ -177,6 +178,57 @@ header {
 
 .service {
 	background-color: #E6F6FF;
+	height: 706px;
+
+	&__contents {
+		background-color: white;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 60px;
+
+		.content {
+			width: 50%;
+
+			p {
+				text-align: left;
+				line-height: 28px;
+				font-size: 15.5px;
+			}
+
+			.icons {
+				span {
+					margin-left: 35px;
+				}
+
+				&:last-child {
+					margin-left: 80px;
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.button {
+			width: 280px;
+			margin: 0 auto;
+			margin-top: 35px;
+
+			a {
+				display: block;
+				padding: 20px;
+				text-decoration: none;
+				color: #008DD5;
+				font-weight: bold;
+				border: #008DD5 solid 1px;
+				border-radius: 5px;
+
+				&:hover {
+					background-color: #008DD5;
+					color: white;
+					transition: 0.7s;
+				}
+			}
+		}
+	}
 }
 
 .strengths {
