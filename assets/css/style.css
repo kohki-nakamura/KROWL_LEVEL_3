@@ -1,0 +1,66 @@
+header {
+  background-image: url("../images/main_visual.jpg");
+  background-size: cover;
+  height: 768px;
+  width: 100%;
+  position: relative;
+}
+
+header .header__icon {
+  background-image: url("../images/logo-datamania.png");
+  width: 100px;
+  height: 100px;
+}
+
+header .header__text {
+  position: relative;
+  top: 230px;
+  left: 100px;
+}
+
+header .header__text div {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+header .header__text div:first-child {
+  width: 400px;
+}
+
+header .header__text div:last-child {
+  margin-top: 10px;
+  width: 220px;
+}
+
+header .header__free {
+  width: 180px;
+  height: 180px;
+  color: #008DD5;
+  background-color: white;
+  border-radius: 100%;
+  border: #008DD5 solid 5px;
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+header .header__free span {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  position: absolute;
+  right: 40px;
+  bottom: 60px;
+}
+
+header .header__free:hover {
+  color: white;
+  background-color: #008DD5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=style.css.map */
