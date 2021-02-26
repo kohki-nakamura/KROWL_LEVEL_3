@@ -1,7 +1,7 @@
 header {
 	background-image: url('../images/main_visual.jpg');
 	background-size: cover;
-	height: 768px;
+	height: 675px;
 	width: 100%;
 	position: relative;
 
@@ -14,7 +14,7 @@ header {
 
 		&__text {
 			position: relative;
-			top: 230px;
+			top: 190px;
 			left: 100px;
 
 			div {
@@ -112,4 +112,72 @@ header {
 			margin-left: 50px;
 		}
 	}
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title {
+	padding: 110px 0 60px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.info {
+	height: 59vh;
+	margin: 0 auto;
+
+	&__contents {
+		width: 640px;
+		margin: 0 auto;
+		position: relative;
+
+		a {
+			display: flex;
+			justify-content: space-between;
+			text-decoration: none;
+			color: black;
+
+			&:hover {
+				text-decoration:underline;
+			}
+		}
+
+		span {
+			line-height: 25px;
+		}
+
+		&-subject {
+			width: 470px;
+			text-align: left;
+		}
+
+		.content:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__past_link {
+		padding-top: 50px;
+
+		a {
+			color: #008DD5;
+			font-weight: bold;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.service {
+	background-color: #E6F6FF;
+}
+
+.strengths {
 }

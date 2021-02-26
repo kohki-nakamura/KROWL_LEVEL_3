@@ -1,7 +1,7 @@
 header {
   background-image: url("../images/main_visual.jpg");
   background-size: cover;
-  height: 768px;
+  height: 675px;
   width: 100%;
   position: relative;
 }
@@ -14,7 +14,7 @@ header .header__icon {
 
 header .header__text {
   position: relative;
-  top: 230px;
+  top: 190px;
   left: 100px;
 }
 
@@ -120,5 +120,74 @@ header .header__free:hover {
   display: inline-block;
   margin-top: 30px;
   margin-left: 50px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  padding: 110px 0 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info {
+  height: 59vh;
+  margin: 0 auto;
+}
+
+.info__contents {
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.info__contents a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+
+.info__contents a:hover {
+  text-decoration: underline;
+}
+
+.info__contents span {
+  line-height: 25px;
+}
+
+.info__contents-subject {
+  width: 470px;
+  text-align: left;
+}
+
+.info__contents .content:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.info__past_link {
+  padding-top: 50px;
+}
+
+.info__past_link a {
+  color: #008DD5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.info__past_link a:hover {
+  text-decoration: underline;
+}
+
+.service {
+  background-color: #E6F6FF;
 }
 /*# sourceMappingURL=style.css.map */
