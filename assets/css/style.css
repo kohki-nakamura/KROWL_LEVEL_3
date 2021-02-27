@@ -138,6 +138,7 @@ header .header__free:hover {
 .info {
   height: 59vh;
   margin: 0 auto;
+  background-color: white;
 }
 
 .info__contents {
@@ -245,8 +246,12 @@ header .header__free:hover {
   transition: 0.7s;
 }
 
+.strengths {
+  background-color: white;
+}
+
 .strengths__contents {
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .strengths__contents .content {
@@ -333,6 +338,7 @@ header .header__free:hover {
 
 .contact {
   padding-bottom: 80px;
+  background-color: white;
 }
 
 .contact__content {
