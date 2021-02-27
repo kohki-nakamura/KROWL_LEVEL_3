@@ -245,6 +245,10 @@ header .header__free:hover {
   transition: 0.7s;
 }
 
+.strengths__contents {
+  margin-bottom: 90px;
+}
+
 .strengths__contents .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,5 +279,55 @@ header .header__free:hover {
   margin-top: 20px;
   line-height: 30px;
   font-size: 15px;
+}
+
+.user_voice {
+  background-color: #E6F6FF;
+  padding-bottom: 100px;
+}
+
+.user_voice__contents {
+  padding: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.user_voice__contents .content {
+  width: 400px;
+  text-align: left;
+  line-height: 30px;
+  border: lightgray solid 1px;
+  border-radius: 10px;
+}
+
+.user_voice__contents .content:nth-child(1), .user_voice__contents .content:nth-child(2) {
+  margin-bottom: 80px;
+}
+
+.user_voice__contents .content__image img {
+  border-radius: 10px 10px 0 0;
+}
+
+.user_voice__contents .content__sentence-title {
+  background-color: #008DD5;
+  color: white;
+  margin-top: -10px;
+  padding: 20px 10px;
+}
+
+.user_voice__contents .content__sentence-text {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */
