@@ -244,4 +244,36 @@ header .header__free:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
+
+.strengths__contents .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.strengths__contents .content:not(:first-child) {
+  margin-top: 50px;
+}
+
+.strengths__contents .content__image img {
+  border-radius: 50%;
+}
+
+.strengths__contents .content__sentence {
+  padding: 70px 40px;
+  text-align: left;
+}
+
+.strengths__contents .content__sentence-title {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: #008DD5 solid 2px;
+}
+
+.strengths__contents .content__sentence-text {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 15px;
+}
 /*# sourceMappingURL=style.css.map */

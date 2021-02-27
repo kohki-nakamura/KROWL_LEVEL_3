@@ -232,4 +232,37 @@ header {
 }
 
 .strengths {
+	&__contents {
+		.content {
+			display: flex;
+
+			&:not(:first-child) {
+				margin-top: 50px;
+			}
+
+			&__image {
+				img {
+					border-radius: 50%;
+				}
+			}
+
+			&__sentence {
+				padding: 70px 40px;
+				text-align: left;
+
+				&-title {
+					font-size: 24px;
+					font-weight: bold;
+					width: 100%;
+					border-bottom: #008DD5 solid 2px;
+				}
+
+				&-text {
+					margin-top: 20px;
+					line-height: 30px;
+					font-size: 15px;
+				}
+			}
+		}
+	}
 }
