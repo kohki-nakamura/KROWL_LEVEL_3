@@ -381,3 +381,37 @@ header {
 		}
 	}
 }
+
+.footer {
+	background-color: #008DD5;
+	padding: 50px 0;
+	font-size: 14px;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__contents {
+
+		&--title {
+			color: white;
+			text-align: left;
+			padding-bottom: 20px;
+			font-weight: bold;
+		}
+	
+		&--list {
+			ul {
+				li {
+					padding-top: 20px;
+					text-align: left;
+				}
+			}
+			a {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}

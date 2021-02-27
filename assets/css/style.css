@@ -399,4 +399,36 @@ header .header__free:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+
+.footer {
+  background-color: #008DD5;
+  padding: 50px 0;
+  font-size: 14px;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contents--title {
+  color: white;
+  text-align: left;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer__contents--list ul li {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.footer__contents--list a {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
